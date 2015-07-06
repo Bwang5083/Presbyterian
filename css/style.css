@@ -1,0 +1,94 @@
+@import url("//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css");
+ article,
+aside,
+figure,
+footer,
+header,
+nav,
+section {
+    display: block;
+}
+/* the reset selector */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+html {
+    background: #1A1A1A;
+}
+/* the styles for the elements */
+
+body {
+    font-family: tahoma, helvetica, arial, sans-serif;
+    font-size: 10px;
+    text-align: center;
+    background: #CDB38B;
+    margin: 0 auto;
+    width: 70%;
+    /*background: #698B69;*/
+}
+header {
+    background-image: -moz-linear-gradient(90deg, #454545 0%, #838B83 30%, white 50%, #838B83 80%, #454545 100%);
+    background-image: -webkit-linear-gradient(90deg, #454545 0%, #838B83 30%, white 50%, #838B83 80%, #454545 100%);
+    background-image: -o-linear-gradient(90deg, #454545 0%, #838B83 30%, white 50%, #838B83 80%, #454545 100%);
+    background-image: linear-gradient(90deg, #454545 0%, #838B83 30%, white 50%, #838B83 80%, #454545 100%);
+}
+/*formating logo picture in all pages*/
+
+#logo {
+    float: left;
+    margin: 5px 35px;
+}
+header h1 {
+    float: left;
+    font-weight: bold;
+    font-size: 350%;
+    margin-left: 20px;
+    color: brown;
+    text-shadow: 5px 5px 5px #8B3626;
+}
+/*end*/
+
+nav {
+    clear: both;
+}
+nav ul {
+    list-style: none;
+    padding: .5em 0;
+    /* padding above and below li elements */
+    background-color: #EE7600;
+}
+nav li {
+    display: inline;
+}
+nav a {
+    padding: .6em 2em;
+    text-decoration: none;
+    color: #fffded;
+    font-weight: bold;
+    border-right: 2px solid #fffded;
+}
+nav a.current {
+    color: yellow;
+}
+#ministry {
+    border: 1px solid #454545;
+    border-radius: 5px;
+    margin: 20px 5px;
+    padding: 10px 12px;
+    -moz-box-shadow: 0 0 3px 3px;
+    -webkit-box-shadow: 0 0 3px 3px;
+    box-shadow: 0 0 3px 3px;
+    background: #454545;
+}
+#ministry img {
+    margin: 6px 10px;
+}
+#footer {
+    clear: both;
+    color: #fff;
+    background: #454545;
+    text-align: center;
+    padding: 8px 0;
+}
